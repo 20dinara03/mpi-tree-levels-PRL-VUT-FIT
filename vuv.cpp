@@ -12,7 +12,7 @@ struct Edge{
     int from;    ///< Source node of the edge
     int to;      ///< Destination node
     int reverse; ///< Index of the reverse edge
-    int next;    ///< Index of the next edge in Euler tour
+    int next;    ///< Index of the next edge in Euler tour for reverse edge
 };
 
 /**
